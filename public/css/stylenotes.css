@@ -1,0 +1,74 @@
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.main {
+    background-color: white;
+}
+.row {
+    padding: 10px;
+}
+
+.row textarea {
+    width: 100%;
+    border-radius: 25px;
+    border: 3px solid rgb(135, 67, 52);
+    padding: 15px;
+    outline: none;
+}
+
+h1 {
+    color: rgb(213, 213, 45);
+}
+.btn {
+    margin: 10px;
+    background-color: black;
+    border-radius: 15px;
+    color: azure;
+}
+
+.navbar {
+    background-color: rgb(135, 67, 52);
+}
+
+.right .container .row .btn {
+    background-color: rgb(213, 213, 45) ;
+}
+
+.inner-post {
+    background-color: azure;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 3px solid rgb(213, 213, 45);
+    padding: 15px;
+    outline: none;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+.editpost textarea {
+    width: 100%;
+}
+
+.editpost {
+    display: none;
+}
+
+.editpost input {
+    font-size: 25px;
+    padding: 10px 30px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}

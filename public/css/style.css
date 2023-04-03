@@ -1,0 +1,46 @@
+.container .form-group {
+    color: wheat;
+}
+.form-control {
+    width: 400px;
+    background-color: rgb(135, 67, 52);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    max-width: 35%;
+    padding: 30px 0px;
+    color:white;
+    border-radius: 35px;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+    justify-content: center;
+}
+p,a {
+    font-size: 20px;
+}
+body {
+    background: url("https://img.freepik.com/free-vector/memphis-beige-paper-collage-brown-abstract-background_53876-99276.jpg?size=626&ext=jpg"),no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    border: 5px solid rgb(135, 67, 52);
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 20px;
+    display: inline;
+}
+label {
+    font-size: 25px;
+}
+#otp {
+    display: none;
+}
